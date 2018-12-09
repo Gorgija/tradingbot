@@ -30,7 +30,7 @@ exports.pausedGmailMsgs = (event, callback) => {
       .map((key) => { console.log("KEy: " ,key);return pausedGmailMsgs[key] })
       .map((obj) => { console.log("Obj: " ,obj);return obj[Object.keys(obj)[0]] })
       .map((obj) => { console.log("Obj2: " ,obj);return obj[Object.keys(obj)[0]] })
-      .map((data) => { console.log("Data: " ,data);data['data']['emailAddress'] = "georgievski.one@gmail.com"; return data['data']; })
+      .map((data) => { console.log("Data: " ,data);data['data']['emailAddress'] = "me"; return data['data']; })
       .map((record) => { console.log("Record: " ,record);if(record != null) { sendingPausedHistoryIds(record);} });
 
     function sendingPausedHistoryIds(gmailData) {
