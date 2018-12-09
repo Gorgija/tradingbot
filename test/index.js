@@ -5,8 +5,8 @@ const promises = urls.map(url => request(url));
 // BITFINEX
 const BFX = require('bitfinex-api-node')
 const bfx = new BFX({
-    apiKey: '2tvNLPWhKZiQW2IlfUPYjrVSOp4lNsYwV6qGW2J0Ral',
-    apiSecret: 'fy3D9xUoWDIrDApuufciOOpW5ARkGYOIbdsCGk2fMtZ',
+    apiKey: '...',
+    apiSecret: '...',
     ws: {
         autoReconnect: true,
         seqAudit: true,
