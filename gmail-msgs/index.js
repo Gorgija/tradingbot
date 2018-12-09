@@ -9,12 +9,7 @@ const functions = require('firebase-functions');
 var serviceAccount = require("./trading-13-firebase-adminsdk.json");
 
 var config = {
-    apiKey: "AIzaSyDpXsFzTBsI_jRZ70Tx3Vru7bD9imZYEZA",
-    authDomain: "trading-13.firebaseapp.com",
-    databaseURL: "https://trading-13.firebaseio.com",
-    projectId: "trading-13",
-    storageBucket: "trading-13.appspot.com",
-    messagingSenderId: "231284354658"
+
 };
 // admin.initializeApp(config);
 if(admin.apps.length === 0) {
